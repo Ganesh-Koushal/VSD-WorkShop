@@ -34,7 +34,8 @@ The library used throughout this workshop is `sky130_fd_sc_hd__tt_025C_1v80.lib`
 
 This tells the synthesis tool exactly which process/voltage/temperature (PVT) corner the cell timing and power numbers correspond to.
 
-📷 *`SKY1300DK.png` — SKY130 PDK overview.*
+📷 * <img width="1920" height="983" alt="SKY1300DK" src="https://github.com/user-attachments/assets/2959e21c-8ce6-4dc9-8ff8-7f58f77489d2" />
+— SKY130 PDK overview.*
 
 ### Inspecting the `.lib` File
 
@@ -82,7 +83,9 @@ endmodule
 
 Here, `multiple_modules` instantiates `sub_module1` and `sub_module2` rather than flattening their logic in directly. Running `synth -top multiple_modules` in Yosys without a `flatten` step keeps `u1` and `u2` as distinct sub-blocks in the resulting netlist — this is what hierarchical synthesis preserves.
 
-📷 *`Hierarchial Modules.png`* · *`Sub_module Ex.png`*
+📷 *<img width="1920" height="983" alt="Hierarchial Modules" src="https://github.com/user-attachments/assets/260e242c-82ca-4faa-94ee-0bd1884ec135" />
+* · *<img width="1920" height="983" alt="Sub_module Ex" src="https://github.com/user-attachments/assets/2aaab61a-d11c-4abd-95d3-9470794a1886" />
+*
 
 ### Flattened Synthesis
 
@@ -97,7 +100,9 @@ Collapses the entire module hierarchy into a single netlist using Yosys's `flatt
 - Harder to debug — no clean mapping back to individual RTL modules
 - Netlist complexity and memory usage go up
 
-📷 *`Flatten Netlist.png`* · *`Complete Netlist.png`*
+📷 *<img width="1920" height="983" alt="Flatten Netlist" src="https://github.com/user-attachments/assets/cff965e6-f38e-4a4e-b9c3-f1d5fe86063e" />
+* · *<img width="1920" height="923" alt="Complete Netlist" src="https://github.com/user-attachments/assets/4337f00a-5a5e-4983-a933-9d144e4539ab" />
+*
 
 ### Summary Comparison
 
@@ -166,7 +171,8 @@ iverilog dff_asyncres.v tb_dff_asyncres.v
 gtkwave tb_dff_asyncres.vcd
 ```
 
-📷 *`DFF_waveform.png` — simulated output waveform.*
+📷 *<img width="1920" height="938" alt="DFF_waveform" src="https://github.com/user-attachments/assets/75971288-99f7-4644-9f93-c4a99cf8c9d7" />
+ — simulated output waveform.*
 
 ### Synthesis (Yosys)
 
