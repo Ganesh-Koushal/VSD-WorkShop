@@ -27,7 +27,10 @@ The actual Verilog module — the RTL description of the circuit's logic and how
 **Testbench**
 A separate, non-synthesizable Verilog file whose only job is to drive inputs into the design and let us observe/verify the outputs. It applies primary inputs through a stimulus generator and checks the primary outputs through a stimulus observer, as shown below.
 
-![Testbench Block Diagram](./testbench_diagram.png)
+<img width="1212" height="570" alt="image" src="https://github.com/user-attachments/assets/97087622-b7ad-499c-bfac-c53ee50dee59" />
+
+
+
 
 ---
 
@@ -35,7 +38,8 @@ A separate, non-synthesizable Verilog file whose only job is to drive inputs int
 
 `iverilog` compiles the design and testbench together into a single executable. Running that executable produces a `.vcd` (Value Change Dump) file, which records every signal transition over simulated time. GTKWave reads that file and renders it as waveforms.
 
-![Iverilog Simulation Flow](./iverilog_flow.png)
+<img width="1402" height="649" alt="image" src="https://github.com/user-attachments/assets/e447bc29-5bbc-4afe-ac25-b183dc5c8d39" />
+
 
 ---
 
@@ -71,7 +75,8 @@ This generates the `.vcd` waveform file.
 gtkwave tb_good_mux.vcd
 ```
 
-📷 *Waveform output: `good_mux_waveform.png`*
+📷 *Waveform output: `<img width="1920" height="983" alt="Simulation WF" src="https://github.com/user-attachments/assets/35511dda-d0d1-4b24-aa89-dd75f2b290ba" />
+`*
 
 **Step 5 — Synthesize with Yosys (introductory check)**
 
@@ -86,7 +91,8 @@ show
 
 The `show` command generates a Graphviz-based schematic of the synthesized design.
 
-📷 *Netlist output: `Netlist.png`*
+📷 *Netlist output: `<img width="1920" height="983" alt="Netlist" src="https://github.com/user-attachments/assets/efb28454-761c-4f0f-89a5-fd12f6f8566d" />
+`*
 
 ---
 
