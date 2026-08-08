@@ -75,8 +75,10 @@ This generates the `.vcd` waveform file.
 gtkwave tb_good_mux.vcd
 ```
 
-📷 *Waveform output: `<img width="1920" height="983" alt="Simulation WF" src="https://github.com/user-attachments/assets/35511dda-d0d1-4b24-aa89-dd75f2b290ba" />
-`*
+📷 *Waveform output:
+
+`<img width="1920" height="983" alt="Simulation WF" src="https://github.com/user-attachments/assets/35511dda-d0d1-4b24-aa89-dd75f2b290ba" />
+
 
 **Step 5 — Synthesize with Yosys (introductory check)**
 
@@ -91,8 +93,10 @@ show
 
 The `show` command generates a Graphviz-based schematic of the synthesized design.
 
-📷 *Netlist output: `<img width="1920" height="983" alt="Netlist" src="https://github.com/user-attachments/assets/efb28454-761c-4f0f-89a5-fd12f6f8566d" />
-`*
+📷 *Netlist output:
+
+<img width="1920" height="983" alt="Netlist" src="https://github.com/user-attachments/assets/ad2c6d73-04b6-45e5-ac39-28f9a0c3bee5" />
+
 
 ---
 
