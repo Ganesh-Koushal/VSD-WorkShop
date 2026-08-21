@@ -12,8 +12,8 @@ This repository documents each session's concepts, lab work, and results as I bu
 |---|-------|--------|
 | [Day 1](./Day_1) | Verilog RTL Design & Functional Simulation | ✅ Completed |
 | [Day 2](./Day_2) | Timing Libraries & Synthesis Strategies | ✅ Completed |
-| [Day 3](./Day_3) | Combinational & Sequential Optimization | ⏳ Upcoming |
-| [Day 4](./Day_4) | Gate-Level Simulation & Blocking vs Non-Blocking | ⏳ Upcoming |
+| [Day 3](./Day_3) | Combinational & Sequential Optimization | ✅ Completed |
+| [Day 4](./Day_4) | Gate-Level Simulation, Blocking vs. Non-Blocking & Synthesis-Simulation Mismatch | ✅ Completed |
 | [Day 5](./Day_5) | Synthesis Optimization Techniques | ⏳ Upcoming |
 
 *(New sessions are added as the coursework progresses.)*
@@ -27,11 +27,23 @@ RTL_Workshop
 │
 ├── README.md
 │
-└── Day_1
+├── Day_1
+│   ├── README.md
+│   ├── good_mux.v
+│   ├── tb_good_mux.v
+│   └── good_mux_waveform.png
+│
+├── Day_2
+│   ├── README.md
+│   └── ...
+│
+├── Day_3
+│   ├── README.md
+│   └── ...
+│
+└── Day_4
     ├── README.md
-    ├── good_mux.v
-    ├── tb_good_mux.v
-    └── good_mux_waveform.png
+    └── ...
 ```
 
 Each session folder contains its own README with the concepts covered, the lab exercises performed, the Verilog source files used, and simulation/synthesis result screenshots.
