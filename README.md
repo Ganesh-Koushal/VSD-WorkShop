@@ -35,15 +35,42 @@ RTL_Workshop
 │
 ├── Day_2
 │   ├── README.md
-│   └── ...
+│   ├── SKY1300DK.png
+│   ├── Hierarchial Modules.png
+│   ├── Sub_module Ex.png
+│   ├── Flatten Netlist.png
+│   ├── Complete Netlist.png
+│   ├── Async FF Netlist.png
+│   └── DFF_waveform.png
 │
 ├── Day_3
 │   ├── README.md
-│   └── ...
+│   ├── Opt_check M3.png
+│   ├── Opt_check2 M3.png
+│   ├── Opt_check3 M3.png
+│   ├── opt_check4 M3.png
+│   ├── Seq Optimisations.png
+│   ├── counter_opt.png
+│   ├── counter_opt1.png
+│   ├── seq_opt_sim.png
+│   ├── seq_opt_sim2.png
+│   ├── dff_const1 M3.png
+│   ├── dff_const2 M3.png
+│   ├── dff_const3 M3.png
+│   ├── dff_const3_sim M3.png
+│   ├── dff_const4 M3.png
+│   └── dff_const5 M3.png
 │
 └── Day_4
     ├── README.md
-    └── ...
+    ├── TO_MUX M4.png
+    ├── T_op_sim.png
+    ├── t_op_mux_sim2.png
+    ├── bad_mux_sim.png
+    ├── bad_mux_sim_gls m4.png
+    ├── blocking_caveat_sim m4.png
+    ├── blocking_caveat_sim2 m4.png
+    └── blocking_caveat_netlist m4.png
 ```
 
 Each session folder contains its own README with the concepts covered, the lab exercises performed, the Verilog source files used, and simulation/synthesis result screenshots.
