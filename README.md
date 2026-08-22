@@ -14,7 +14,7 @@ This repository documents each session's concepts, lab work, and results as I bu
 | [Day 2](./Day_2) | Timing Libraries & Synthesis Strategies | ✅ Completed |
 | [Day 3](./Day_3) | Combinational & Sequential Optimization | ✅ Completed |
 | [Day 4](./Day_4) | Gate-Level Simulation, Blocking vs. Non-Blocking & Synthesis-Simulation Mismatch | ✅ Completed |
-| [Day 5](./Day_5) | Synthesis Optimization Techniques | ⏳ Upcoming |
+| [Day 5](./Day_5) | Synthesis Optimization — If-Else, Case, For Loops & Generate Blocks | ✅ Completed |
 
 *(New sessions are added as the coursework progresses.)*
 
@@ -61,16 +61,34 @@ RTL_Workshop
 │   ├── dff_const4 M3.png
 │   └── dff_const5 M3.png
 │
-└── Day_4
+├── Day_4
+│   ├── README.md
+│   ├── TO_MUX M4.png
+│   ├── T_op_sim.png
+│   ├── t_op_mux_sim2.png
+│   ├── bad_mux_sim.png
+│   ├── bad_mux_sim_gls m4.png
+│   ├── blocking_caveat_sim m4.png
+│   ├── blocking_caveat_sim2 m4.png
+│   └── blocking_caveat_netlist m4.png
+│
+└── Day_5
     ├── README.md
-    ├── TO_MUX M4.png
-    ├── T_op_sim.png
-    ├── t_op_mux_sim2.png
-    ├── bad_mux_sim.png
-    ├── bad_mux_sim_gls m4.png
-    ├── blocking_caveat_sim m4.png
-    ├── blocking_caveat_sim2 m4.png
-    └── blocking_caveat_netlist m4.png
+    ├── Comp_case_sim.png
+    ├── Partial_case_assign.png
+    ├── bad_case_net.png
+    ├── bad_case_sim.png
+    ├── comp_case_syn.png
+    ├── demux_case_net.png
+    ├── demux_case_sim.png
+    ├── incom_if_net.png
+    ├── incomp_case_net.png
+    ├── incomp_case_sim.png
+    ├── incomp_if2_net.png
+    ├── incomp_if2_sim.png
+    ├── incomp_if_sim.png
+    ├── m5 rca_sim.png
+    └── mux_generate_sim.png
 ```
 
 Each session folder contains its own README with the concepts covered, the lab exercises performed, the Verilog source files used, and simulation/synthesis result screenshots.
