@@ -1,5 +1,6 @@
 # Sequence Detector – RTL to GLS Verification
 
+
 ## Overview
 
 This assignment demonstrates the complete digital design flow of a **7-bit sequence detector**, starting from RTL design and functional simulation and continuing through synthesis, netlist generation, and Gate-Level Simulation (GLS).
