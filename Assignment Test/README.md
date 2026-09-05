@@ -1,4 +1,3 @@
-````markdown
 # Sequence Detector – RTL to GLS Verification
 
 ## Overview
