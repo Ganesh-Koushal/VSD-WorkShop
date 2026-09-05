@@ -617,5 +617,3 @@ RTL vs GLS Verification
 ```
 
 and confirms that the synthesized implementation preserves the intended functionality of the original RTL design.
-
-````
