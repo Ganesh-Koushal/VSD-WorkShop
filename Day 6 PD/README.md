@@ -71,8 +71,8 @@ RTL → Synthesis → Gate-Level Netlist → Floorplanning → Placement
     → CTS → Routing → Physical Verification → GDSII
 ```
 
-📷 *`<img width="1920" height="1080" alt="GDSII Flow" src="https://github.com/user-attachments/assets/96b27aea-9385-4b72-a274-2fb208063608" />
-` — the end-to-end flow OpenLane automates.*
+📷 *<img width="1920" height="1080" alt="GDSII Flow" src="https://github.com/user-attachments/assets/96b27aea-9385-4b72-a274-2fb208063608" />
+— the end-to-end flow OpenLane automates.*
 
 ---
 
@@ -118,8 +118,8 @@ Physical Verification (DRC + LVS)
 GDSII
 ```
 
-📷 *`<img width="1920" height="983" alt="openlane_tcl" src="https://github.com/user-attachments/assets/5a7cd506-e6ae-4d3e-8ee3-ecc29d091185" />
-` — running this flow through OpenLane's Tcl interface.*
+📷 *<img width="1920" height="983" alt="openlane_tcl" src="https://github.com/user-attachments/assets/5a7cd506-e6ae-4d3e-8ee3-ecc29d091185" />
+ — running this flow through OpenLane's Tcl interface.*
 
 ---
 
