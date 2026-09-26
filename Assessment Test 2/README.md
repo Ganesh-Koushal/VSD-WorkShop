@@ -110,6 +110,8 @@ foreach lib $libs {
     report_tns
 }
 ```
+<img width="1920" height="983" alt="op1" src="https://github.com/user-attachments/assets/ab423240-7396-453e-ae15-00d425d509ee" />
+<img width="1920" height="983" alt="op15" src="https://github.com/user-attachments/assets/35740227-d151-4ba6-9d95-07682115ffad" />
 
 Run inside the OpenSTA Docker container:
 
